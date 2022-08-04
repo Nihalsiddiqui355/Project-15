@@ -7,7 +7,7 @@
 
 
 
-## Project 15 [Live Link](https://fullstack-js-project-15.netlify.app/)
+## Project 15 [Live Link](https://fullstak-js-project-15.netlify.app/)
 
 - >  Skills Gained in this project
     -   Learned to use flex-box.
@@ -21,4 +21,4 @@
 
 ### Screenshot
 
-![Screenshot](./pro-1.png)
+![Screenshot](./pro-15.png)
