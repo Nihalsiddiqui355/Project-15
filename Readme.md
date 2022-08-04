@@ -1,4 +1,4 @@
-# 14 Project 
+# 15 Project 
 ![name](https://img.shields.io/badge/ByNihal-siddiqui-lightgrey)
 
 
@@ -7,7 +7,7 @@
 
 
 
-## Project 14 [Live Link](https://fullstack-js-project-15.netlify.app/)
+## Project 15 [Live Link](https://fullstack-js-project-15.netlify.app/)
 
 - >  Skills Gained in this project
     -   Learned to use flex-box.
