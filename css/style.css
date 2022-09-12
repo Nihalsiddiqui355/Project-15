@@ -22,7 +22,7 @@ body {
     background-color: var(--bg-dark);
     font-family: "Montserrat", sans-serif;
     color: var(--white);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .container {
@@ -59,7 +59,35 @@ div img[src="./assets/logo.svg"]{
    margin: 0px 2px;
   
 }
+.fa-solid.fa-bars{
+    display: none;
+}
 
+@media only screen and (min-width:320px) and (max-width:864px){
+
+    div img[src="./assets/logo.svg"]{
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 80px;
+    }
+    .navbar{
+       
+            margin: 0 auto;
+            max-width: 375px;
+        
+    }
+    .navbar .lists{
+        display: none;
+    }
+    .fa-solid.fa-bars{
+        display: flex;
+        margin: auto 0;
+        padding-right: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+}
 /* Hero section_________________________________________ */
 
 
@@ -106,7 +134,54 @@ div img[src="./images/person.png"]{
     cursor: pointer;
 }
 
-/* Ui Part */
+
+@media only screen and (min-width:320px) and (max-width:864px){
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding: 10px 0px;
+    }
+
+    .left-1-img{
+        margin: 0 auto;
+    }
+    
+    div img[src="./images/person.png"]{
+        width: 300px;
+    }
+    .hero .right-1{
+        max-width: 390px;
+        margin: 0 auto;
+    }
+    .hero .right-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .hero .right-1 .sub-right{
+        margin: 0 auto;
+    }
+    
+    
+    .hero .right-1 h3{
+        color: var(--primary-light);
+    }
+    .hero .right-1 h1{
+        font-size: 35px;
+    
+    }
+    
+    .hero .right-1 p{
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    
+}
+
+/* section Ui Part */
 
 .sec-3{
     height: 80rem;
@@ -158,6 +233,36 @@ div img[src="./images/person.png"]{
     margin-top: 20px;
 }
 
+@media only screen and (min-width:320px) and (max-width:864px){
+    .sec-3{
+        margin : 0 auto;
+        max-width: 400px;
+        height: 116rem;
+    }
+    
+    .cards-3{
+        margin: 0 auto;
+        background-color: var(--bg-dark-light);
+        width: 290px;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+        left: 0.2rem;
+    }
+ 
+    .cards-3 .card-3 {
+        border: 2px solid powderblue;
+        margin-right: 15px;
+        position: relative;
+        right: -500px;
+        top: 10px;
+        height: 290px;
+        width: 300px;
+        background-color: #303030;
+        border: none;
+    }
+}
+
 /* Bot -3  */
 
 div.bot-3{
@@ -180,6 +285,7 @@ div.bot-3{
     top: 90px;
     left: 30px;
     text-align: center;
+   
 }
 
 .bot-left h1{
@@ -220,6 +326,30 @@ div.bot-3{
 .bot-3 .right-bot .card-3-left p{
     font-size: 20px;
     color:var(--white)
+}
+
+
+@media only screen and (min-width:320px) and (max-width:864px){  
+    div.bot-3{
+    
+        height: 395px;
+        width: 200px;
+        position: relative;
+        top: -100px;
+        left: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    
+    } 
+    .bot-3 .right-bot {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 300px;
+        padding-bottom: 10px;
+    }
+
 }
 
 /* sectio ________________________________4 */
@@ -309,6 +439,32 @@ div img[src="./images/pic-4.jpg"]{
     margin: 20px;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 864px){
+    .container .sec-4 .card-4 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 38px;
+        justify-content: center;
+    }
+    .container .sec-4 .card-4 .img-4 {
+        background-color: var(--bg-dark-light-2);
+        width: 375px;
+    }
+    .container .sec-4 .top-4 {
+        display: flex;
+        /* justify-content: space-around; */
+        margin: 0 auto;
+        width: 372px;
+    }
+    .container .sec-4 .top-4 .btn-4 {
+        padding: 5px 40px;
+        position: relative;
+        top: 40px;
+        right: 8px;
+    
+    }
+}
+
 /* ___________section-5 */
 
 .container .sec-5{
@@ -359,6 +515,28 @@ div img[src="./images/pic-4.jpg"]{
     cursor: pointer;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 864px){
+    .container .sec-5 {
+        height: 50vh;
+        width: 377px;
+        display: flex;
+        gap: 20px;
+        background-color: var(--bg-dark-light-2);
+        position: relative;
+        left: 0px;
+        top: 0;
+        margin: 0 auto;
+    }
+    .container .sec-5 .left-5 h1 {
+      font-size: 25px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    .container .sec-5 .left-5 p {
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+}
 
 /* nav-footer */
 
@@ -399,4 +577,28 @@ div img[src="./assets/logo.svg"]{
 .fa-brands{
     margin: 20px;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 864px){
+.nav-footer {
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    width: 380px;
+    position: relative;
+    left: 0%;
+    padding: 20px 10px;
+    }
+    .nav-footer .list-footer {
+       margin: 0 auto;
+       padding: 10px;
+        cursor: pointer;
+        color: var(--text-gray);
+    }
+
+    .footer{
+        margin: 0 auto;
+        max-width: 375px;
+    }
+
 }
